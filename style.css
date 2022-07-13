@@ -1,0 +1,121 @@
+body{
+background-image: url('https://images2.alphacoders.com/521/521477.jpg');
+
+position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    
+
+ background-size:  100% 100%;
+
+
+ 
+ 
+
+}
+
+header{
+    text-align: center;
+    font-size: 40px;
+    
+    
+}
+.titulo{
+    color:rgb(24,144,161) ;
+    text-shadow: 
+               -2px -2px 0px #18CE3F, 
+               -2px 2px 0px #18CE3F,                    
+                2px -2px 0px #18CE3F,                  
+                2px 0px 0px #18CE3F;         
+                animation-name: slid;      
+                animation-duration: 2s;
+}
+@keyframes slid {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+.campoDeBusca{
+    text-align: center;
+    margin: 30px;
+    
+}
+.nameBusca{
+    width: 300px;
+    height: 18px;
+    border-radius: 15px;
+}
+.buscar{
+    border-radius: 10px;
+    padding: 5px;
+}
+
+section{
+    background-color: rgba(24,21,63, 0.877);
+    border-radius: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 55%;
+    margin: auto;
+    padding-left: 2.5%;
+    
+}
+.person{
+    background-color: rgba(16, 14, 43, 0.89);
+    color: white;
+   
+    text-align: center;
+    
+    width: 30%;
+
+    margin: 10px;
+    border-radius: 10%;
+    
+}
+.person:hover,
+.person:focus {
+    
+  transform: translateX(10px) scale(1.5);
+}
+.personImg{
+    
+    height: 50%;
+    width: 40%;
+    margin: auto;
+    border-radius: 40%;
+    margin-top: 5px;
+    
+   
+}
+.personName{
+    color: rgb(48,137,66);
+    margin: -10px;
+   
+}
+p{
+    margin: -5px;
+}
+footer{
+    background-color: rgb(11, 11, 11, 0.8);
+    margin: auto;
+    width: 97%;
+    height: 300px;
+   color: white;
+   border-radius: 30px;
+   text-align: center;
+   font-size: 30px;
+   margin-top: 60px;
+   line-height: 100px;
+   
+}
+.rick{
+    max-height: 40%;
+}
