@@ -1,7 +1,4 @@
- 
-
-
-const fetchapi= async (e)=>{
+const fetchapi= async ()=>{
     const dado= await fetch('https://rickandmortyapi.com/api/character')
 
     const response =await dado.json()
