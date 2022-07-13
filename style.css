@@ -1,6 +1,5 @@
 body{
-background-image: url('https://images2.alphacoders.com/521/521477.jpg');
-
+background-image:url(imgs/espaço.jpg);
 position: relative;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -47,15 +46,22 @@ header{
     text-align: center;
     margin: 30px;
     
+    
 }
 .nameBusca{
-    width: 300px;
-    height: 18px;
+    width: 50%;
+    height: 30px;
     border-radius: 15px;
+    
 }
 .buscar{
     border-radius: 10px;
     padding: 5px;
+    height: 45px;
+    width: 80px;
+    color: white;
+    background-color: rgb(0, 0, 0,0.2);
+    font-size: 20px;
 }
 
 section{
@@ -83,7 +89,7 @@ section{
 .person:hover,
 .person:focus {
     
-  transform: translateX(10px) scale(1.5);
+  transform: translateX(10px) scale(1.2);
 }
 .personImg{
     
@@ -115,6 +121,14 @@ footer{
    margin-top: 60px;
    line-height: 100px;
    
+}
+nav{
+    display: flex;
+    height: 30px;
+    margin-left: 20px;
+
+    
+    
 }
 .rick{
     max-height: 40%;
