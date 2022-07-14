@@ -41,7 +41,7 @@ const character=async()=>{
         personName.innerHTML+= `${p.origin.name}<br>`
         person.appendChild(personOrigIN)
         
-        console.log(response);
+        
 
     })
 }
