@@ -1,3 +1,10 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
 body{
 background-image:url(imgs/espaço.jpg);
 position: relative;
@@ -80,8 +87,9 @@ section{
    
     text-align: center;
     
+    height: 290px;
     width: 30%;
-
+    padding: 1px;
     margin: 10px;
     border-radius: 10%;
     
@@ -104,7 +112,16 @@ section{
 .personName{
     color: rgb(48,137,66);
     margin: -10px;
+    font-size: 90%;
    
+}
+.personSpecies{
+    font-size: 90%;
+    padding: 2px;
+}
+.personOrigin{
+    font-size: 90%;
+    padding: 2px;
 }
 p{
     margin: -5px;
@@ -131,4 +148,16 @@ nav{
 }
 .rick{
     max-height: 40%;
+}
+@media(max-width: 1750px){
+/* 
+    .personName{
+        color: rgb(48,137,66);
+        margin: -10px;
+        font-size: 90%;
+       
+    } */
+
+
+
 }

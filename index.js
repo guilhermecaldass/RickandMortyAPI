@@ -2,7 +2,7 @@ const fetchapi= async ()=>{
     const dado= await fetch('https://rickandmortyapi.com/api/character')
 
     const response =await dado.json()
- 
+console.log(response);
    return response
    
 
@@ -33,12 +33,12 @@ const character=async()=>{
 
 
         const personSpecies=document.createElement('p')
-        personName.innerHTML+= `${p.species}<br>`
+        personSpecies.innerHTML+= `<p class='personSpecies'>${p.species}<br>`
         person.appendChild(personSpecies)
 
 
         const personOrigIN=document.createElement('P')
-        personName.innerHTML+= `${p.origin.name}<br>`
+        personOrigIN.innerHTML+= `<p class='personOrigin'>${p.origin.name}<br>`
         person.appendChild(personOrigIN)
         
         
