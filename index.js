@@ -84,12 +84,14 @@ const filterCharacter= async (e)=>{
             
             
             const personSpecies=document.createElement('p')
-            personName.innerHTML+= `${p.species}<br>`
+            personSpecies.className='personSpecies'
+            personSpecies.innerHTML+= `${p.species}<br>`
             person.appendChild(personSpecies)
             
             
             const personOrigIN=document.createElement('P')
-            personName.innerHTML+= `${p.origin.name}<br>`
+            personOrigIN.className='personOrigin'
+            personOrigIN.innerHTML+= `${p.origin.name}<br>`
             person.appendChild(personOrigIN)
             
         });
