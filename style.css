@@ -84,9 +84,11 @@ section{
     width: 55%;
     margin: auto;
     padding-left: 2.5%;
+    padding-bottom: 1.7%;
     
 }
 .person{
+    display: inline;
     background-color: rgba(16, 14, 43, 0.89);
     color: white;
    
@@ -94,8 +96,8 @@ section{
     
     height: 290px;
     width: 30%;
-    padding: 1px;
-    margin: 10px;
+    padding: 1%;
+    margin: 1.5%;
     border-radius: 10%;
     
 }
@@ -116,21 +118,19 @@ section{
 }
 .personName{
     color: rgb(48,137,66);
-    margin: -10px;
-    font-size: 90%;
+    padding: 1%;
+    
    
 }
 .personSpecies{
-    font-size: 90%;
-    padding: 2px;
+    
+    padding: 1%;
 }
 .personOrigin{
-    font-size: 90%;
-    padding: 2px;
+    
+    padding: 1%;
 }
-p{
-    margin: -5px;
-}
+
 footer{
     background-color: rgb(11, 11, 11, 0.8);
     margin: auto;
