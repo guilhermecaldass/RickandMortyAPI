@@ -4,6 +4,10 @@
     border: 0;
     box-sizing: border-box;
 }
+.github{
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
 
 body{
 background-image:url(imgs/espaço.jpg);
