@@ -1,7 +1,7 @@
 <h1> RickandMortyAPI<h1>
 <hr>
-link do projeto:
-https://guilhermecaldass.github.io/RickandMortyAPI/
+<p>link do projeto:
+<p>https://guilhermecaldass.github.io/RickandMortyAPI/
 <br>
 <hr>
  
