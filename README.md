@@ -1,4 +1,4 @@
-<h1> RickandMortyAPI<h1>
+<h1> RickandMortyAPI
 <hr>
 <p>link do projeto:
 <p>https://guilhermecaldass.github.io/RickandMortyAPI/
@@ -7,7 +7,7 @@
  
   <img src="imgs/capaproj.png">
 
-<h2>tecnologias
+<h2>tecnologias utilizadas
 
 <ul>
 <li> HTML
