@@ -4,6 +4,8 @@ link do projeto:
 https://guilhermecaldass.github.io/RickandMortyAPI/
 <br>
 <hr>
+ 
+  <img src="imgs/capaproj.png">
 
 <h2>tecnologias<h2>
 
@@ -14,4 +16,4 @@ https://guilhermecaldass.github.io/RickandMortyAPI/
 <ul>
 
 
- <img src="imgs/capaproj.png" alt="rick imagem" class="rick">
+
