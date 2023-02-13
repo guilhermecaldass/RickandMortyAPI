@@ -1,4 +1,4 @@
- RickandMortyAPI
+<h1>RickandMortyAPI
 <hr>
 <p>link do projeto:
 <p>https://guilhermecaldass.github.io/RickandMortyAPI/
