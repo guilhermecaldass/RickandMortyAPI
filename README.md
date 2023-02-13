@@ -7,10 +7,10 @@
  
   <img src="imgs/capaproj.png">
 
-<h2>tecnologias utilizadas
+<h1>tecnologias utilizadas
 
 <ul>
-<li> HTML
+<li> <p>HTML
 <li>CSS
 <li>JavaScprit
 <ul>
