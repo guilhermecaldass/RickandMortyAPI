@@ -6,11 +6,12 @@ https://guilhermecaldass.github.io/RickandMortyAPI/
 <hr>
 
 <h2>tecnologias<h2>
+
 <ul>
-<li>
-    HTML
-<li>
+<li> HTML
 <li>CSS
 <li>JavaScprit
 <ul>
+
+
  <img src="imgs/capaproj.png" alt="rick imagem" class="rick">
