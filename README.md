@@ -7,7 +7,7 @@
  
   <img src="imgs/capaproj.png">
 
-<h2>tecnologias<h2>
+<h2>tecnologias
 
 <ul>
 <li> HTML
