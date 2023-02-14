@@ -11,7 +11,6 @@
 
 body{
     background-image:url(imgs/espaço.jpg);
- position: relative;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;  
@@ -73,7 +72,7 @@ header{
 }
 
 section{
-    background-color: rgba(24,21,63, 0.877);
+    background-color: rgba(24,21,63, 0.7);
     border-radius: 30px;
     display:flex ;
     flex-wrap: wrap;
@@ -102,8 +101,7 @@ section{
 }
 .personImg{
     
-    height: 50%;
-    width: 40%;
+    width: 50%;
     margin: auto;
     border-radius: 40%;
     margin-top: 5px;
@@ -146,3 +144,59 @@ nav{
     max-height: 100px;
     margin: 20px;
 }
+
+
+@media screen and (max-width:1300px){
+.person{
+   
+    width: 40%;
+    font-size: 15px;
+   
+    
+}
+.personName{
+    font-size: 14px;
+}
+section{
+    width: 80%;
+
+}
+}
+
+@media screen and (max-width:600px){
+    .rick{
+       width:70px ;
+       
+        
+    }
+    .titulo{
+        font-size: 60px;
+        text-shadow: 
+        -1px -1px 0px #18CE3F, 
+        -1px 1px 0px #18CE3F,                    
+         1px -1px 0px #18CE3F,                  
+         1px 0px 0px #18CE3F;         
+         animation-name: slid;      
+         animation-duration: 2s;
+    }
+    section{
+        width: 90%;
+    }
+    .person{
+        width: 45%;
+    }
+    .personImg{
+        width: 70%;
+       
+    }
+    }
+
+
+@media screen and (max-width:300px){
+  .person{
+    width: 80%;
+  }
+  .personImg{
+    width: 60%;
+  }
+    }
