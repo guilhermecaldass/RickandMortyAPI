@@ -68,31 +68,8 @@ const filterCharacter= async (e)=>{
         
         
         response.results.filter(p=> p.name.toUpperCase().includes(nameBusca.toUpperCase())).map(p=>{
-            const person=document.createElement('div')
-            person.className='person'
-            conteiner.appendChild(person)
-            
-            const personImg=document.createElement('img')
-            personImg.src=p.image
-            personImg.className='personImg'
-            person.appendChild(personImg)
-            
-            const personName=document.createElement('h1')
-            personName.innerHTML= `<p class='personName'>${p.name}<p><br>`
-            person.appendChild(personName)
-            
-            
-            
-            const personSpecies=document.createElement('p')
-            personSpecies.className='personInf'
-            personSpecies.innerHTML+= `${p.species}<br>`
-            person.appendChild(personSpecies)
-            
-            
-            const personOrigIN=document.createElement('P')
-            personOrigIN.className='personInf'
-            personOrigIN.innerHTML+= `${p.origin.name}<br>`
-            person.appendChild(personOrigIN)
+           const person=creatPerson(p)
+           conteiner.appendChild(person)
             
         });
         
