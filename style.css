@@ -11,18 +11,10 @@
 
 body{
     background-image:url(imgs/espaço.jpg);
-    position: relative;
+ position: relative;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    
-    
-    
-    background-size:  100% 100%;
-    
-    
-    
-    
-    
+    background-size: cover;  
 }
 .github{
     padding-top: 20px;
@@ -137,9 +129,10 @@ footer{
    color: white;
    border-radius: 30px;
    text-align: center;
-   font-size: 30px;
+   font-size: 25px;
    margin-top: 60px;
-   line-height: 100px;
+   margin-bottom: 40px;
+   padding: 30px;
    
 }
 nav{
@@ -150,5 +143,6 @@ nav{
     
 }
 .rick{
-    max-height: 40%;
+    max-height: 100px;
+    margin: 20px;
 }
