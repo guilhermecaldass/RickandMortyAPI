@@ -13,6 +13,7 @@ body{
     background-image:url(imgs/espaço.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position:center;
     background-size: cover;  
 }
 .github{
