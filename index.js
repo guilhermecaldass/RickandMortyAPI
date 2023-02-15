@@ -1,10 +1,12 @@
 const conteiner=document.querySelector('.conteiner')
 
 
-//funcao que trata a API com async await ,fetch e json
+//funcao que trata a API com 'async await' ,'fetch' e 'json'.
 const fetchapi= async ()=>{
     const dado= await fetch('https://rickandmortyapi.com/api/character')
     const response =await dado.json()
+
+//retorna um obj contendo a resposta da 'API'.
    return response
    
 }
@@ -13,7 +15,7 @@ const fetchapi= async ()=>{
 //funcao que cria uma div que representa cada personagem com metodos de manipulaçao de dom
 const creatPerson =(p) =>{
     
-//metodo 'createElement' cria um elemento HTML
+//metodo 'createElement' cria um elemento HTML.
     const person=document.createElement('div')
     person.className='person'
    
@@ -22,7 +24,7 @@ const creatPerson =(p) =>{
     personImg.src=p.image
     personImg.className='personImg'
 
-//metodo 'appendChild' e usado para add um elem dentro de outro como filho 
+//metodo 'appendChild' e usado para add um elem dentro de outro como filho.
     person.appendChild(personImg)
 
     const personName=document.createElement('h1')
@@ -62,14 +64,14 @@ const filterCharacter= async (e)=>{
     
     const response= await fetchapi()
     const nameBusca=document.querySelector('.nameBusca').value
-    const person =document.querySelectorAll('.person')
     
-    //remove todos elementos com a clase 'person'
-        person.forEach(p => p.remove())
+    //remove todos elementos de personagens existatente .
+    const person =document.querySelectorAll('.person')
+    person.forEach(p => p.remove())
 
         
         
-    //filtra os resultados com o 'filter' 
+    //filtra os resultados com o 'filter' e cria novos elementos/personagem com base nos no returno do filter.
         response.results.filter(p=> p.name.toUpperCase().includes(nameBusca.toUpperCase())).map(p=>{
            const person=creatPerson(p)
            conteiner.appendChild(person)
