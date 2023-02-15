@@ -1,19 +1,19 @@
 const conteiner=document.querySelector('.conteiner')
 
 
-
+//funcao que trata a API com async await ,fetch e json
 const fetchapi= async ()=>{
     const dado= await fetch('https://rickandmortyapi.com/api/character')
     const response =await dado.json()
-console.log(response);
    return response
    
-
-    
 }
 
+
+//funcao que cria uma div que representa cada personagem com metodos de manipulaçao de dom
 const creatPerson =(p) =>{
     
+//metodo 'createElement' cria um elemento HTML
     const person=document.createElement('div')
     person.className='person'
    
@@ -21,6 +21,8 @@ const creatPerson =(p) =>{
     const personImg=document.createElement('img')
     personImg.src=p.image
     personImg.className='personImg'
+
+//metodo 'appendChild' e usado para add um elem dentro de outro como filho 
     person.appendChild(personImg)
 
     const personName=document.createElement('h1')
@@ -38,15 +40,14 @@ const creatPerson =(p) =>{
     personOrigIN.innerHTML+= `<p class='personInf'>${p.origin.name}<br>`
     person.appendChild(personOrigIN)
     
-    return person
-    
-    
+    return person    
 }
-    
+
+//funçao que reutiliza as funçoes para renderizar os personagem 
 const character=async()=>{
     const response=  await fetchapi()
-    response.results.map(p=>{
 
+    response.results.map(p=>{
         const person=creatPerson(p)
         conteiner.appendChild(person)
       
