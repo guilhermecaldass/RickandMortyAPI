@@ -57,17 +57,19 @@ const character=async()=>{
 
 
 const filterCharacter= async (e)=>{
+//'e.preventDefault'  evita o comportamento padrão do evento submit do formulário
     e.preventDefault()
     
     const response= await fetchapi()
     const nameBusca=document.querySelector('.nameBusca').value
     const person =document.querySelectorAll('.person')
     
+    //remove todos elementos com a clase 'person'
         person.forEach(p => p.remove())
 
         
         
-        
+    //filtra os resultados com o 'filter' 
         response.results.filter(p=> p.name.toUpperCase().includes(nameBusca.toUpperCase())).map(p=>{
            const person=creatPerson(p)
            conteiner.appendChild(person)
