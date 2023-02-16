@@ -71,7 +71,7 @@ const filterCharacter= async (e)=>{
 
         
         
-    //filtra os resultados com o 'filter' e cria novos elementos/personagem com base nos no returno do filter.
+    //filtra os resultados com o 'filter' e cria novos elementos/personagem com base no returno do filter.
         response.results.filter(p=> p.name.toUpperCase().includes(nameBusca.toUpperCase())).map(p=>{
            const person=creatPerson(p)
            conteiner.appendChild(person)
