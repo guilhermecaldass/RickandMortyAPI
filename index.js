@@ -3,11 +3,18 @@ const conteiner=document.querySelector('.conteiner')
 
 //funcao que trata a API com 'async await' ,'fetch' e 'json'.
 const fetchapi= async ()=>{
-    const dado= await fetch('https://rickandmortyapi.com/api/character')
-    const response =await dado.json()
 
-//retorna um obj contendo a resposta da 'API'.
-   return response
+    try{
+        const dado= await fetch('https://rickandmortyapi.com/api/character')
+        const response =await dado.json()
+        
+        //retorna um obj contendo a resposta da 'API'.
+        return response
+    
+    }catch(error){
+        console.error(error)
+        return null
+    }
    
 }
 
