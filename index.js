@@ -64,7 +64,7 @@ const character=async()=>{
     })
 }
 
-
+//funçao do campo de busca de personagens
 const filterCharacter= async (e)=>{
 //'e.preventDefault'  evita o comportamento padrão do evento submit do formulário
     e.preventDefault()
