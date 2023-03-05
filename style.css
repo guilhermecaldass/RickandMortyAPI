@@ -13,7 +13,7 @@ body{
     background-image:url(imgs/espaço.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position:center;
+    
     background-size: cover;  
 }
 .github{
@@ -171,7 +171,9 @@ section{
 @media(max-width:767px){
     body{
 
-        background-image: url('imgs/espaçomobile6.png');
+        background-image: url('imgs/espaçomobile03.jpg');
+        /* background-size: 768px 1000px;   */
+
         
     }
 }
