@@ -147,7 +147,7 @@ nav{
 }
 
 
-@media screen and (max-width:1300px){
+@media  (max-width:1300px){
 .person{
    
     width: 40%;
@@ -162,9 +162,21 @@ section{
     width: 80%;
 
 }
+
+
+
 }
 
-@media screen and (max-width:600px){
+
+@media(max-width:767px){
+    body{
+
+        background-image: url('imgs/espaçomobile2.png');
+        
+    }
+}
+
+@media (max-width:600px){
     .rick{
        width:70px ;
        
@@ -193,7 +205,7 @@ section{
     }
 
 
-@media screen and (max-width:300px){
+@media (max-width:300px){
   .person{
     width: 80%;
   }
