@@ -13,6 +13,7 @@ body{
     background-image:url(imgs/espaço.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: 100% 100%;
 
 
 }
@@ -174,7 +175,6 @@ section{
         
         background-image: url('imgs/espaçomobile22.jpg');
 
-        background-size: cover;
         
 
 
@@ -192,7 +192,7 @@ section{
         
     }
     .titulo{
-        font-size: 45px;
+        font-size: 42px;
         text-shadow: 
         -1px -1px 0px #18CE3F, 
         -1px 1px 0px #18CE3F,                    
