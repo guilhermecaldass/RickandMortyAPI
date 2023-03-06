@@ -14,7 +14,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     
-    background-size: cover;  
+
 }
 .github{
     padding-top: 20px;
@@ -23,7 +23,7 @@ body{
 
 header{
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     
     
 }
@@ -172,7 +172,7 @@ section{
     body{
 
         background-image: url('imgs/espaçomobile03.jpg');
-        background-size: cover;  
+        background-size: 100% 100%;
 
         
     
