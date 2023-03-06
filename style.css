@@ -13,8 +13,7 @@ body{
     background-image:url(imgs/espaço.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100% 100%;
-    
+
 
 }
 .github{
@@ -173,9 +172,8 @@ section{
     body{
 
         
-        background-image: url(none);
-
-
+        background-image: url('imgs/espaçomobile22.jpg');
+        
 
 
         
