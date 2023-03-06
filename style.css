@@ -13,6 +13,7 @@ body{
     background-image:url(imgs/espaço.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: 100% 100%;
     
 
 }
@@ -171,8 +172,9 @@ section{
 @media(max-width:767px){
     body{
 
-        background-image: url('imgs/espaçomobile03.jpg');
-        background-size: 100% 100%;
+        
+        background-image: url('imgs/espaçomobile1.jpg');
+
 
         
     
