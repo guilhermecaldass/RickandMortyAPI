@@ -21,14 +21,20 @@ body{
 
 
 .capa{
+
+    background-attachment: fixed;
+    background-size: cover;
+  
+}
+
+.capa > img{
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     z-index: -1;
-}
-
+    }
 
 .github{
     padding-top: 20px;
@@ -180,24 +186,17 @@ section{
 
 
 }
-/* 
+ 
 
 @media(max-width:767px){
-    body{
+      .capa{
 
-        
-        background-image: url('imgs/espaçomobile22.jpg');
+          height: 100%;
+          /* width: 100%;
+          object-fit: cover; */
 
-        background-size: cover;
-        
-
-
-        
-    
-
-        
-    }
-} */
+     }
+} 
 
 @media (max-width:600px){
     .rick{
