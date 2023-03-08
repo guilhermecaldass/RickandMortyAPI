@@ -11,19 +11,20 @@
 
 
 
-/* primeira tentativa de implementar, 
-porem tive problemas de responsivodade com celulares iphones, 
-tive que ter outra aportagem  */
-body{
+/* primeira tentativa de implementar a img, porem tive problemas de responsivodade
+ com celulares iphones, tive que ter outra aportagem  
+ body{
     background-image:url(imgs/espaço.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 
 
-}
+} */
 
-/* 
+/* a outra abordagem */
+
+
 .capa{
     width: 100%;
     height: 100%;
@@ -39,7 +40,7 @@ body{
     z-index: -1;
  
 }
- */
+
 
 .github{
     padding-top: 20px;
