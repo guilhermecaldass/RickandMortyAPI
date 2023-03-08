@@ -11,7 +11,7 @@
 
 
 body{
-    background-color: rgb(33, 13, 39);
+    background-color: rgb(0, 0, 0);
 }
 
 /* primeira tentativa de implementar,
@@ -28,10 +28,9 @@ body{
 
 /* a outra forma */
 .capa{
-  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
 }
-
-
 .capa>img{
     position: fixed;
     top: 0;
