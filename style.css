@@ -22,7 +22,7 @@ body{
 
 .capa{
 
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-size: cover;
   
 }
