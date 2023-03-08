@@ -10,6 +10,10 @@
 }
 
 
+body{
+    background-color: rgb(33, 13, 39);
+}
+
 /* primeira tentativa de implementar,
 porem tive problemas de responsivodade com celulares iphones,
 tive que ter outra aportagem
@@ -23,10 +27,9 @@ body{
     */
 
 /* a outra forma */
-/* .capa{
-    width: 100%;
-    height: 100%;
-} */
+.capa{
+  background-attachment: fixed;
+}
 
 
 .capa>img{
