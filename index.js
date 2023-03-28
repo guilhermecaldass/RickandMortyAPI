@@ -29,6 +29,7 @@ const creatPerson =(p) =>{
 
     const personImg=document.createElement('img')
     personImg.src=p.image
+    personImg.alt=`imagem de ${p.name}`
     personImg.className='personImg'
 
 //metodo 'appendChild' e usado para add um elem dentro de outro como filho.
@@ -40,7 +41,7 @@ const creatPerson =(p) =>{
     
 
 
-    const personSpecies=document.createElement('p')
+    const personSpecies=document.createElement('h4')
     personSpecies.innerHTML+= `<p class='personInf'>${p.species}<br>`
     person.appendChild(personSpecies)
 

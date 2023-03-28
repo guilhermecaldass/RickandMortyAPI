@@ -15,7 +15,7 @@ body{
 }
 
 /* primeira tentativa de implementar,
-porem tive problemas de responsivodade com celulares iphones,
+porem tive problemas de responsivodade com cbuscar-personagemelulares iphones,
 tive que ter outra aportagem
 body{
     /* background-image:url(imgs/espaço.jpg);
@@ -93,7 +93,7 @@ header{
     height: 45px;
     width: 80px;
     color: white;
-    background-color: rgb(0, 0, 0,0.2);
+    background-color: rgb(0, 0, 0,0.4);
     font-size: 20px;
 }
 
@@ -135,13 +135,12 @@ section{
 
 }
 .personName{
-    color: rgb(48,137,66);
+    color: rgb(96, 197, 117);
     padding: 1%;
 
 
 }
 .personInf{
-
     padding: 1%;
 }
 
